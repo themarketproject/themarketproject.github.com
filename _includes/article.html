@@ -1,0 +1,30 @@
+{% unless page.no_header %}
+  <header>
+    {% if index %}
+      <h2 class="entry-title">
+        <a class="{% if post.linked %}ss-link{% endif %}" href="{% if post.linked %}{{ post.linked }}{% else %}{{ root_url }}{{ post.url }}{% endif %}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+      </h2>
+      {% if post.subtitle %}
+        <h4 class="subheader">{% if site.titlecase %}{{ post.subtitle | titlecase }}{% else %}{{ post.subtitle }}{% endif %}</h4>
+      {% endif %}
+    {% else %}
+
+      <h2 class="entry-title">
+      {% if page.linked %}<a class="ss-link" href="{{ page.linked }}">{% endif %}
+        {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+      {% if page.linked %}</a>{% endif %}
+      </h2>
+      {% if page.subtitle %}
+        <h4 class="subheader">{% if site.titlecase %}{{ page.subtitle | titlecase }}{% else %}{{ page.subtitle }}{% endif %}</h4>
+      {% endif %}
+    {% endif %}
+  </header>
+{% endunless %}
+
+<div class="entry-content">{{ content }}</div>
+
+
+<p class="meta">
+  <time class="ss-calendar" datetime="{{ post.date }}">{{ post.date }}</time>
+  <a class="permalink" href="{{post.url}}" title="Permaink">&#x1F517;</a>
+</p>
