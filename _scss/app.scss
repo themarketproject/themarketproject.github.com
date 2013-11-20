@@ -56,52 +56,156 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-h1, h2, h3 { font-family: garogier, serif; line-height: 1.1em }
+
+//              Typography
+// - - - - - - - - - - - - - - - - - - - - -
+h1, h2, h3, header p { font-family: garogier, serif; line-height: 1.1em }
 p { font-family: 'Open Sans', sans-serif; font-weight: 300 }
 
-header {
-  height: 600px;
-  background-image: url("/images/man-food-bg.jpg");
-  background-size:cover;
 
-  .logo {
-    margin: 32px 0 0 150px;
-    width: 263px;
-    height: 209px;
+$blue: rgba(46, 78, 103, 1);
+$green: rgba(74, 90, 60, .85);
+$maroon: #62291F;
+$shadow: rgba(20,20,20,.65);
+
+$heading-border: 1px solid rgba(255,255,255,.15);
+
+//              Header
+// - - - - - - - - - - - - - - - - - - - - -
+header {
+  height: auto;
+  background-image: url("/images/loom.jpg");
+  background-size:cover;
+  position: relative;
+
+  h1 {
+    margin: 90px 0 90px 90px;
+    width: 310px;
+    height: 190px;
     display: block;
-    background-image: url("/images/logo.png");
+    background-image: url("/images/logo-white.png");
+    background-size: cover;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
   }
+
+  nav {
+    position: fixed;
+    right: 0;
+    top: 0px;
+    background: rgba(20,20,20,.4);
+    border-radius: 0 5px 5px 0;
+    z-index: 100;
+
+    a { 
+      display: inline-block; 
+      padding: 15px 20px;
+      color: #fff;
+      font-weight: 700;
+    }
+    a:hover {
+      color: #fff;
+      background-color: $blue;
+    }
+  }
+
+  p {
+    font-size: 1.7em;
+    text-shadow: 0px 1px 2px $shadow;
+    color: #fff;
+  }
+  .problem { }
+  .solution {}
+  .call {}
 }
 
+//              SECTIONS
+// - - - - - - - - - - - - - - - - - - - - -
 section {
   color: #f6f6f6;
-  box-shadow: 0 2px 4px rgba(20, 20, 20, .5);
+  box-shadow: 0 2px 4px $shadow;
 
   & > .row { padding: 20px 0; }
 
-  h2 { color: #f6f6f6; }
+ h2 { color: #f6f6f6; border-bottom: $heading-border; padding-bottom: 8px; }
+}
 
-  &.about{
-    background-color: #2E4E67;
-    h2 { padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,.2) }
-  } 
-
-  &.values {
-    background-color: #62291F;
-    .vision-mission { border-bottom: 1px solid rgba(255,255,255,.2) }
+#about{
+  //background-color: #2E4E67;
+  // background-color: $blue;
+  background-color: $green;
+  h2 { 
+    padding: 20px 0; 
+    border: $heading-border;
+    border-width: 1px 0;
   }
 
-  &.photo {
-    height: 500px;
-    background-image: url("/images/Sudanese-beauty.jpg");
+  .call {
+    a { display: block; text-align: center; font-size: 1.4em; font-weight: 700; }
+  }
+}
+
+#values {
+  background-color: $maroon;
+  // background-color: rgba(97, 41, 30, .85);
+  // background-image: url("/images/Sudanese-beauty.jpg");
+  // background-size: cover;
+  .vision-mission {padding-bottom:0}
+  .vision-mission p:last-child {margin-bottom: 0}
+}
+
+.photo {
+  height: 500px;
+  overflow: hidden; 
+  position:relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  div {
+    background:transparent url("/images/carving.jpg") no-repeat 50% 25%;
     background-size:cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width:100%;
   }
+}
 
-  &.team {
-    background-color: #4B5B3D;
+#team {
+  // background-color: ;
+  background-color: $blue;
+  img { 
+    padding: 8px; 
+    margin: 0 0 25px;
+    width: 100%; 
+    background: rgba(255,255,255,.05);
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,.1);
   }
+}
 
+#join {
+  background-color: #a79237;
+}
+
+
+//              Screen Sizes
+// - - - - - - - - - - - - - - - - - - - - -
+
+//              Small
+// - - - - - - - - - - - - - - - - - - - - -
+@media only screen and (max-width:"#{$small-screen}") {
+  header {
+    height: auto;
+    h1 {
+      margin: 50px auto;
+    }
+    nav a { padding: 10px; font-size: .8em }
+  }
+  section#team img { 
+    float: left; 
+    width: 30%;
+    padding: 5px;
+    margin: 0 10px 10px;
+  }
 }

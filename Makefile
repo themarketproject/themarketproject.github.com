@@ -10,7 +10,7 @@ clean:
 
 
 compile:
-	bundle exec jekyll --no-server --no-safe --no-auto
+	bundle exec jekyll build
 	bundle exec compass compile -c config.rb
 
 
