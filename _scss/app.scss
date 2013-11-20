@@ -74,16 +74,16 @@ $heading-border: 1px solid rgba(255,255,255,.15);
 // - - - - - - - - - - - - - - - - - - - - -
 header {
   height: auto;
-  background-image: url("/images/loom.jpg");
+  background-image: url("/images/carving.jpg");
   background-size:cover;
   position: relative;
 
   h1 {
-    margin: 90px 0 90px 90px;
+    margin: 20px 0 100px 40px;
     width: 310px;
-    height: 190px;
+    height: 240px;
     display: block;
-    background: transparent url("/images/logo-white.png") no-repeat;
+    background: transparent url("/images/logo.png") no-repeat;
     background-size: 100%;
     text-indent: 100%;
     white-space: nowrap;
@@ -164,7 +164,7 @@ section {
   position:relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
   div {
-    background:transparent url("/images/carving.jpg") no-repeat 50% 25%;
+    background:transparent url("/images/loom.jpg") no-repeat 50% 25%;
     background-size:cover;
     position:absolute;
     top: 0;
@@ -207,8 +207,9 @@ section {
 // - - - - - - - - - - - - - - - - - - - - -
 @media only screen and (max-width:"#{$small-screen}") {
   header {
-    background-image: url("/images/loom-mobile.jpg");
-    background-position: 29% 0;
+    // background-image: url("/images/loom-mobile.jpg");
+    background-position: 50% 0;
+    background-size: 325%;
     h1 {
       margin: 50px auto 30px;
       width:280px;

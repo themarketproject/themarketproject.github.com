@@ -9,7 +9,6 @@ layout: default
       <nav>
         <a href="#about">About The Market Project</a>
         <a href="#team">Our Team</a>
-        <a href="#join">Join Us</a>
       </nav>
 
     </div>
@@ -18,11 +17,11 @@ layout: default
   <section id="about">
     <div class="row">
       <div class="large-12 columns">
-        <p class="problem">The Global Slavery Index estimates that right now, there are 29.8 million slaves in the world. Those who are liberated face and uphill battle as they attempt to rebuild their lives.</p>
+        <p class="problem">The Global Slavery Index estimates that there are 29.8 million slaves in the world. Those who are liberated face and uphill battle as they attempt to rebuild their lives.</p>
 
         <h2>The Market Project partners with established aftercare communities and provide robust business training and the resources and mentoring to start sustainable businesses.</h2>
         
-        <p class="call"><a href="#join">Please join us</a> and help those who have escaped the bondage of trauma and trafficking start a new life today.</p>
+        <p class="call"><a href="mailto:info@marketproject.org">Please join us</a> and help those who have escaped the bondage of trauma and trafficking start a new life today.</p>
       </div>
     </div>
   </section>
@@ -88,15 +87,6 @@ layout: default
           <p><strong>James Dirksen</strong> has 20 years experience in bringing products and services to market around the world. He has consulting experience working at NorthrupGrumman and PriceWaterhouseCoopers. He has startup experience selling to companies around the world, and has sold companies to Microsoft and Symantec. He is on the board of directors of World Harvest Mission, The Elisha Foundation, and Songs for Saplings. He lives with his wife Dana and 6 children in Portland, Oregon.</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="join">
-  <div class="row">
-    <div class="large-12 columns">
-      <h2>Please join us</h2>
-      <p class="email"><a href="mailto:info@marketproject.org">info<span>@</span>marketproject.org</a></p>
     </div>
   </div>
 </section>
