@@ -7495,4 +7495,9 @@ section h2 {
     padding: 5px;
     margin: 0 10px 10px;
   }
+
+  /* line 229, ../_scss/app.scss */
+  #join .email {
+    font-size: 1.3em;
+  }
 }
