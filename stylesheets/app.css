@@ -7447,57 +7447,33 @@ section h2 {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* line 190, ../_scss/app.scss */
-#join {
-  background-color: rgba(74, 90, 60, 0.85);
-}
-/* line 192, ../_scss/app.scss */
-#join .email {
-  text-align: center;
-  font-size: 3em;
-  margin: 3em 0;
-}
-/* line 196, ../_scss/app.scss */
-#join .email a {
-  color: #fff;
-}
-/* line 197, ../_scss/app.scss */
-#join .email a span {
-  font-family: "Open Sans", sans-serif;
-}
-
 @media only screen and (max-width: 768px) {
-  /* line 209, ../_scss/app.scss */
+  /* line 197, ../_scss/app.scss */
   header {
     background-position: 50% 0;
     background-size: 325%;
   }
-  /* line 213, ../_scss/app.scss */
+  /* line 201, ../_scss/app.scss */
   header h1 {
     margin: 50px auto 30px;
     width: 280px;
   }
-  /* line 217, ../_scss/app.scss */
+  /* line 205, ../_scss/app.scss */
   header nav {
     width: 100%;
     text-align: center;
   }
-  /* line 220, ../_scss/app.scss */
+  /* line 208, ../_scss/app.scss */
   header nav a {
     padding: 15px 6px;
     font-size: 0.8em;
   }
 
-  /* line 223, ../_scss/app.scss */
+  /* line 211, ../_scss/app.scss */
   section#team img {
     float: left;
     width: 30%;
     padding: 5px;
     margin: 0 10px 10px;
-  }
-
-  /* line 230, ../_scss/app.scss */
-  #join .email {
-    font-size: 1.3em;
   }
 }
