@@ -59,7 +59,7 @@
 
 //              Typography
 // - - - - - - - - - - - - - - - - - - - - -
-h1, h2, h3, header p { font-family: garogier, serif; line-height: 1.1em }
+h1, h2, h3, header p, .email a { font-family: garogierregular, serif; line-height: 1.1em }
 p { font-family: 'Open Sans', sans-serif; font-weight: 300 }
 
 
@@ -189,7 +189,14 @@ section {
 
 #join {
   background-color: $green;
-  .email {text-align: center}
+  .email { 
+    text-align: center;  
+    font-size: 3em;
+    margin: 3em 0;
+    a { color: #fff;
+      span { font-family: "Open Sans", sans-serif}
+    }
+  }
 }
 
 

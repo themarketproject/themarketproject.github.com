@@ -7305,8 +7305,8 @@ a.th {
 }
 
 /* line 62, ../_scss/app.scss */
-h1, h2, h3, header p {
-  font-family: garogier, serif;
+h1, h2, h3, header p, .email a {
+  font-family: garogierregular, serif;
   line-height: 1.1em;
 }
 
@@ -7454,31 +7454,41 @@ section h2 {
 /* line 192, ../_scss/app.scss */
 #join .email {
   text-align: center;
+  font-size: 3em;
+  margin: 3em 0;
+}
+/* line 196, ../_scss/app.scss */
+#join .email a {
+  color: #fff;
+}
+/* line 197, ../_scss/app.scss */
+#join .email a span {
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 202, ../_scss/app.scss */
+  /* line 209, ../_scss/app.scss */
   header {
     background-image: url("/images/loom-mobile.jpg");
     background-position: 29% 0;
   }
-  /* line 205, ../_scss/app.scss */
+  /* line 212, ../_scss/app.scss */
   header h1 {
     margin: 50px auto 30px;
     width: 280px;
   }
-  /* line 209, ../_scss/app.scss */
+  /* line 216, ../_scss/app.scss */
   header nav {
     width: 100%;
     text-align: center;
   }
-  /* line 212, ../_scss/app.scss */
+  /* line 219, ../_scss/app.scss */
   header nav a {
     padding: 15px 6px;
     font-size: 0.8em;
   }
 
-  /* line 215, ../_scss/app.scss */
+  /* line 222, ../_scss/app.scss */
   section#team img {
     float: left;
     width: 30%;

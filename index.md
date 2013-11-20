@@ -95,8 +95,8 @@ layout: default
 <section id="join">
   <div class="row">
     <div class="large-12 columns">
-      <h2>Join Us</h2>
-      <p class="email"><a href="mailto:info@marketproject.org">info@marketproject.org</a></p>
+      <h2>Please join us</h2>
+      <p class="email"><a href="mailto:info@marketproject.org">info<span>@</span>marketproject.org</a></p>
     </div>
   </div>
 </section>
