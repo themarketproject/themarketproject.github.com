@@ -96,7 +96,7 @@ layout: default
   <div class="row">
     <div class="large-12 columns">
       <h2>Join Us</h2>
-      <h2><a href="mailto:info@marketproject.org">info@marketproject.org</a></h2>
+      <p class="email"><a href="mailto:info@marketproject.org">info@marketproject.org</a></p>
     </div>
   </div>
 </section>
