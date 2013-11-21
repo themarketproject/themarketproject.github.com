@@ -78,10 +78,12 @@ header {
   background-size:cover;
   position: relative;
 
+  .row { position: relative; }
+
   h1 {
     margin: 20px 0 100px 40px;
-    width: 310px;
-    height: 240px;
+    width: 220px;
+    height: 173px;
     display: block;
     background: transparent url("/images/logo.png") no-repeat;
     background-size: 100%;
@@ -187,6 +189,18 @@ section {
   }
 }
 
+.contact { 
+  .columns .columns { font-size: 1.5em;  }
+  strong {
+    display: block;
+    opacity: 0.75;
+    font-weight: 300;
+    font-size: .8em;
+    margin: 0 0 5px;
+  }
+  a { color: #fff; }
+}
+
 
 //              Screen Sizes
 // - - - - - - - - - - - - - - - - - - - - -
@@ -201,6 +215,7 @@ section {
     h1 {
       margin: 50px auto 30px;
       width:280px;
+      height:220px;
     }
     nav {
       width:100%;

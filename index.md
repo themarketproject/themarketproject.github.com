@@ -17,9 +17,15 @@ layout: default
   <section id="about">
     <div class="row">
       <div class="large-12 columns">
-        <p class="problem">The Global Slavery Index estimates that there are 29.8 million slaves in the world. Those who are liberated face and uphill battle as they attempt to rebuild their lives.</p>
+        <p class="problem">The Global Slavery Index estimates that there are 29.8 million slaves in the world. Those who are liberated face an uphill battle as they attempt to rebuild their lives.</p>
 
-        <h2>The Market Project partners with established aftercare communities and provide robust business training and the resources and mentoring to start sustainable businesses.</h2>
+        <div class="row">
+          <div class="large-10 large-offset-1 columns">
+
+            <h2>The Market Project partners with established aftercare communities and provide robust business training and the resources and mentoring to start sustainable businesses.</h2>
+        
+          </div>
+        </div>
         
         <p class="call"><a href="mailto:info@marketproject.org">Please join us</a> and help those who have escaped the bondage of trauma and trafficking start a new life today.</p>
       </div>
@@ -86,6 +92,17 @@ layout: default
           <img src="/images/team/Dirksen.jpg" />
           <p><strong>James Dirksen</strong> has 20 years experience in bringing products and services to market around the world. He has consulting experience working at NorthrupGrumman and PriceWaterhouseCoopers. He has startup experience selling to companies around the world, and has sold companies to Microsoft and Symantec. He is on the board of directors of World Harvest Mission, The Elisha Foundation, and Songs for Saplings. He lives with his wife Dana and 6 children in Portland, Oregon.</p>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row contact">
+    <div class="large-12 columns">
+      <h2>Contact Us</h2>
+      
+      <div class="row">
+        <div class="large-6 columns"><strong>Email:</strong> <a href="mailto:info@marketproject.org">info@marketproject.org</a></div>
+        <div class="large-6 columns"><strong>Phone: </strong>(215) 703-7435</div>
       </div>
     </div>
   </div>
