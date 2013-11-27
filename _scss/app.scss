@@ -59,8 +59,13 @@
 
 //              Typography
 // - - - - - - - - - - - - - - - - - - - - -
-h1, h2, h3, header p, .email a { font-family: garogierregular, serif; line-height: 1.1em }
-p { font-family: 'Open Sans', sans-serif; font-weight: 300 }
+h1, h2, h3, header p,
+.email a, .contact .columns .columns { 
+  font-family: garogierregular, serif; line-height: 1.1em;
+}
+p {
+  font-family: 'Open Sans', sans-serif; font-weight: 300
+}
 
 
 $blue: rgba(46, 78, 103, 1);
@@ -82,8 +87,8 @@ header {
 
   h1 {
     margin: 20px 0 100px 40px;
-    width: 220px;
-    height: 173px;
+    width: 275px;
+    height: 217px;
     display: block;
     background: transparent url("/images/logo.png") no-repeat;
     background-size: 100%;
@@ -100,8 +105,8 @@ header {
     border-radius: 0 5px 5px 0;
     z-index: 100;
 
-    a { 
-      display: inline-block; 
+    a {
+      display: inline-block;
       padding: 15px 20px;
       margin: 0;
       color: #fff;
@@ -134,14 +139,15 @@ section {
   & > .row { padding: 20px 0; }
 
  h2 { color: #f6f6f6; border-bottom: $heading-border; padding-bottom: 8px; }
+ h3, h4 { color: #f6f6f6 }
 }
 
 #about{
   //background-color: #2E4E67;
   // background-color: $blue;
   background-color: $green;
-  h2 { 
-    padding: 20px 0; 
+  h2 {
+    padding: 20px 0;
     border: $heading-border;
     border-width: 1px 0;
   }
@@ -162,7 +168,7 @@ section {
 
 .photo {
   height: 500px;
-  overflow: hidden; 
+  overflow: hidden;
   position:relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
   div {
@@ -179,18 +185,24 @@ section {
 #team {
   // background-color: ;
   background-color: $blue;
-  img { 
-    padding: 8px; 
+  img {
+    padding: 8px;
     margin: 0 0 25px;
-    width: 100%; 
+    width: 100%;
     background: rgba(255,255,255,.05);
     border-radius: 3px;
     border: 1px solid rgba(255,255,255,.1);
   }
+  em {display:block; opacity: .7}
 }
 
-.contact { 
-  .columns .columns { font-size: 1.5em;  }
+#contact {
+  background-color: $green;
+  .columns .columns {
+    font-size: 1.5em;
+    text-align: center; 
+  }
+
   strong {
     display: block;
     opacity: 0.75;
@@ -199,6 +211,9 @@ section {
     margin: 0 0 5px;
   }
   a { color: #fff; }
+  span {
+    font-family: "Open Sans", sans-serif;
+  }
 }
 
 
@@ -210,8 +225,8 @@ section {
 @media only screen and (max-width:"#{$small-screen}") {
   header {
     // background-image: url("/images/loom-mobile.jpg");
-    background-position: 50% 0;
-    background-size: 325%;
+    background-position: 36% 0;
+    background-size: 245%;
     h1 {
       margin: 50px auto 30px;
       width:280px;
@@ -219,12 +234,12 @@ section {
     }
     nav {
       width:100%;
-      text-align: center; 
+      text-align: center;
       a { padding: 15px 6px; font-size: .8em }
     }
   }
-  section#team img { 
-    float: left; 
+  section#team img {
+    float: left;
     width: 30%;
     padding: 5px;
     margin: 0 10px 10px;
