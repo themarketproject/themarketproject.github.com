@@ -7305,7 +7305,7 @@ a.th {
 }
 
 /* line 63, ../_scss/app.scss */
-h1, h2, h3, header p,
+h1, h2, h3, p,
 .email a, .contact .columns .columns {
   font-family: garogierregular, serif;
   line-height: 1.1em;
@@ -7313,8 +7313,8 @@ h1, h2, h3, header p,
 
 /* line 66, ../_scss/app.scss */
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.3em;
 }
 
 /* line 80, ../_scss/app.scss */
@@ -7413,7 +7413,7 @@ section h3, section h4 {
 
 /* line 160, ../_scss/app.scss */
 #values {
-  background-color: #62291f;
+  background-color: #721b1b;
 }
 /* line 165, ../_scss/app.scss */
 #values .vision-mission {

@@ -59,18 +59,18 @@
 
 //              Typography
 // - - - - - - - - - - - - - - - - - - - - -
-h1, h2, h3, header p,
-.email a, .contact .columns .columns { 
+h1, h2, h3, p,
+.email a, .contact .columns .columns {
   font-family: garogierregular, serif; line-height: 1.1em;
 }
 p {
-  font-family: 'Open Sans', sans-serif; font-weight: 300
+  font-size: 1.3em;
+  line-height: 1.3em;
 }
-
 
 $blue: rgba(46, 78, 103, 1);
 $green: rgba(74, 90, 60, .85);
-$maroon: #62291F;
+$maroon: #721B1B;
 $shadow: rgba(20,20,20,.65);
 
 $heading-border: 1px solid rgba(255,255,255,.15);
@@ -200,7 +200,7 @@ section {
   background-color: $green;
   .columns .columns {
     font-size: 1.5em;
-    text-align: center; 
+    text-align: center;
   }
 
   strong {
