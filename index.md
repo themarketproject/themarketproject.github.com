@@ -18,12 +18,17 @@ layout: default
   <section id="about">
     <div class="row">
       <div class="large-12 columns">
-        <p class="problem">The Global Slavery Index estimates that there are 29.8 million slaves in the world. Those who are liberated face an uphill battle as they attempt to rebuild their lives.</p>
+
+        <p class="problem">
+          Nobel Prize winning economist Amartra Sen called poverty "the problem of lacking autonomy and freedom." And too often, poverty goes hand-in-hand with human trafficking, trauma and exploitation. Charitable outreaches often meet critical immediate needs, but we seek to build real economic opportunity by starting businesses. 
+        </p>
 
         <div class="row">
           <div class="large-10 large-offset-1 columns">
 
-            <h2>The Market Project partners with established aftercare communities and provides robust business training and the resources and mentoring to start sustainable businesses.</h2>
+            <h2>
+              The Market Project partners with established organizations caring for men and women rescued from trafficking, trauma and exploitation and provides robust business training, resources, and mentoring to start and keep sustainable businesses.
+            </h2>
 
           </div>
         </div>
