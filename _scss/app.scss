@@ -4,8 +4,6 @@
 // Comment out this import if you don't want to use normalize
 @import "normalize";
 
-@import "/webfonts/garogier/stylesheet.css";
-
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
@@ -61,11 +59,11 @@
 // - - - - - - - - - - - - - - - - - - - - -
 h1, h2, h3, p,
 .email a, .contact .columns .columns {
-  font-family: garogierregular, serif; line-height: 1.1em;
+  font-family: 'Lora', serif; line-height: 1.1em;
 }
 p {
-  font-size: 1.3em;
-  line-height: 1.3em;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 $blue: rgba(46, 78, 103, 1);
@@ -121,13 +119,16 @@ header {
   }
 
   p {
-    font-size: 1.7em;
+    font-size: 1.3em;
+    line-height: 1.5em;
     text-shadow: 0px 1px 2px $shadow;
     color: #fff;
   }
-  .problem { }
-  .solution {}
-  .call {}
+  h2 {
+    font-weight: 300;
+    font-size: 1.7em;
+    line-height: 1.3em;
+  }
 }
 
 //              SECTIONS
@@ -198,6 +199,7 @@ section {
 
 #contact {
   background-color: $green;
+  padding-bottom: 3em;
   .columns .columns {
     font-size: 1.5em;
     text-align: center;

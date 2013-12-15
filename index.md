@@ -91,7 +91,7 @@ layout: default
 
         <div class="large-4 columns">
           <img src="/images/team/Stonehouse.jpg" />
-          <p><em>Operations Director</em> <strong>Carolyn Stonehouse</strong>has spent more than 20 years working as both employee and consultant among large and small non-profit organizations. She has worked on developing short-term programs bringing medical relief and business training to prisoners in developing countries and micro- enterprise lending programs in Africa, Asia and Latin America. Carolyn also served as the National Director of Angel Tree for Prison Fellowship. Most recently she served as COO of World Harvest Mission. Carolyn and her husband Tim live in Philadelphia, Pennsylvania with their two children.</p>
+          <p><em>Operations Director</em> <strong>Carolyn Stonehouse</strong> has spent more than 20 years working as both employee and consultant among large and small non-profit organizations. She has worked on developing short-term programs bringing medical relief and business training to prisoners in developing countries and micro- enterprise lending programs in Africa, Asia and Latin America. Carolyn also served as the National Director of Angel Tree for Prison Fellowship. Most recently she served as COO of World Harvest Mission. Carolyn and her husband Tim live in Philadelphia, Pennsylvania with their two children.</p>
         </div>
 
         <div class="large-4 columns">
