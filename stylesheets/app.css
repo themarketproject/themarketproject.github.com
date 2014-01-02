@@ -7488,6 +7488,8 @@ section h3, section h4 {
 /* line 215, ../_scss/app.scss */
 #contact a {
   color: #fff;
+  margin-bottom: 1em;
+  display: block;
 }
 /* line 216, ../_scss/app.scss */
 #contact span {
@@ -7523,5 +7525,32 @@ section h3, section h4 {
     width: 30%;
     padding: 5px;
     margin: 0 10px 10px;
+  }
+
+  /* line 249, ../_scss/app.scss */
+  section#contact .columns .columns {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 350px) {
+  /* line 256, ../_scss/app.scss */
+  header .logo {
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+  /* line 259, ../_scss/app.scss */
+  header h1 {
+    margin-top: 100px;
+  }
+  /* line 260, ../_scss/app.scss */
+  header nav a:first-child {
+    display: block;
+  }
+  /* line 263, ../_scss/app.scss */
+  header p {
+    font-size: 1.2em;
+  }
+  /* line 264, ../_scss/app.scss */
+  header h2 {
+    font-size: 1.4em;
   }
 }
