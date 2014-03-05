@@ -7384,60 +7384,61 @@ header h2 {
 section {
   color: #f6f6f6;
   box-shadow: 0 2px 4px rgba(20, 20, 20, 0.65);
+  background-color: rgba(74, 90, 60, 0.85);
 }
-/* line 140, ../_scss/app.scss */
+/* line 141, ../_scss/app.scss */
 section > .row {
   padding: 20px 0;
 }
-/* line 142, ../_scss/app.scss */
+/* line 143, ../_scss/app.scss */
 section h2 {
   color: #f6f6f6;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 8px;
 }
-/* line 143, ../_scss/app.scss */
+/* line 144, ../_scss/app.scss */
 section h3, section h4 {
   color: #f6f6f6;
 }
 
-/* line 146, ../_scss/app.scss */
+/* line 147, ../_scss/app.scss */
 #about {
   background-color: rgba(74, 90, 60, 0.85);
 }
-/* line 150, ../_scss/app.scss */
+/* line 151, ../_scss/app.scss */
 #about h2 {
   padding: 20px 0;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-width: 1px 0;
 }
-/* line 157, ../_scss/app.scss */
+/* line 158, ../_scss/app.scss */
 #about .call a {
   font-weight: 700;
   color: white;
   text-decoration: underline;
 }
 
-/* line 161, ../_scss/app.scss */
+/* line 162, ../_scss/app.scss */
 #values {
   background-color: #721b1b;
 }
-/* line 166, ../_scss/app.scss */
+/* line 167, ../_scss/app.scss */
 #values .vision-mission {
   padding-bottom: 0;
 }
-/* line 167, ../_scss/app.scss */
+/* line 168, ../_scss/app.scss */
 #values .vision-mission p:last-child {
   margin-bottom: 0;
 }
 
-/* line 170, ../_scss/app.scss */
+/* line 171, ../_scss/app.scss */
 .photo {
   height: 500px;
   overflow: hidden;
   position: relative;
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
-/* line 175, ../_scss/app.scss */
+/* line 176, ../_scss/app.scss */
 .photo div {
   background: transparent url("/images/loom.jpg") no-repeat 50% 25%;
   background-size: cover;
@@ -7448,11 +7449,11 @@ section h3, section h4 {
   width: 100%;
 }
 
-/* line 186, ../_scss/app.scss */
+/* line 187, ../_scss/app.scss */
 #team {
   background-color: #2e4e67;
 }
-/* line 189, ../_scss/app.scss */
+/* line 190, ../_scss/app.scss */
 #team img {
   padding: 8px;
   margin: 0 0 25px;
@@ -7461,23 +7462,23 @@ section h3, section h4 {
   border-radius: 3px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-/* line 197, ../_scss/app.scss */
+/* line 198, ../_scss/app.scss */
 #team em {
   display: block;
   opacity: .7;
 }
 
-/* line 200, ../_scss/app.scss */
+/* line 201, ../_scss/app.scss */
 #contact {
   background-color: rgba(74, 90, 60, 0.85);
   padding-bottom: 3em;
 }
-/* line 203, ../_scss/app.scss */
+/* line 204, ../_scss/app.scss */
 #contact .columns .columns {
   font-size: 1.5em;
   text-align: center;
 }
-/* line 208, ../_scss/app.scss */
+/* line 209, ../_scss/app.scss */
 #contact strong {
   display: block;
   opacity: 0.75;
@@ -7485,41 +7486,41 @@ section h3, section h4 {
   font-size: .8em;
   margin: 0 0 5px;
 }
-/* line 215, ../_scss/app.scss */
+/* line 216, ../_scss/app.scss */
 #contact a {
   color: #fff;
   margin-bottom: 1em;
   display: block;
 }
-/* line 216, ../_scss/app.scss */
+/* line 217, ../_scss/app.scss */
 #contact span {
   font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 228, ../_scss/app.scss */
+  /* line 229, ../_scss/app.scss */
   header {
     background-position: 36% 0;
     background-size: 245%;
   }
-  /* line 232, ../_scss/app.scss */
+  /* line 233, ../_scss/app.scss */
   header h1 {
     margin: 50px auto 30px;
     width: 280px;
     height: 220px;
   }
-  /* line 237, ../_scss/app.scss */
+  /* line 238, ../_scss/app.scss */
   header nav {
     width: 100%;
     text-align: center;
   }
-  /* line 240, ../_scss/app.scss */
+  /* line 241, ../_scss/app.scss */
   header nav a {
     padding: 15px 6px;
     font-size: 0.8em;
   }
 
-  /* line 243, ../_scss/app.scss */
+  /* line 244, ../_scss/app.scss */
   section#team img {
     float: left;
     width: 30%;
@@ -7527,29 +7528,29 @@ section h3, section h4 {
     margin: 0 10px 10px;
   }
 
-  /* line 249, ../_scss/app.scss */
+  /* line 250, ../_scss/app.scss */
   section#contact .columns .columns {
     text-align: left;
   }
 }
-@media only screen and (max-width: 350px) {
-  /* line 256, ../_scss/app.scss */
+@media only screen and (max-width: 370px) {
+  /* line 257, ../_scss/app.scss */
   header .logo {
     background-color: rgba(255, 255, 255, 0.55);
   }
-  /* line 259, ../_scss/app.scss */
+  /* line 260, ../_scss/app.scss */
   header h1 {
     margin-top: 100px;
   }
-  /* line 260, ../_scss/app.scss */
+  /* line 261, ../_scss/app.scss */
   header nav a:first-child {
     display: block;
   }
-  /* line 263, ../_scss/app.scss */
+  /* line 264, ../_scss/app.scss */
   header p {
     font-size: 1.2em;
   }
-  /* line 264, ../_scss/app.scss */
+  /* line 265, ../_scss/app.scss */
   header h2 {
     font-size: 1.4em;
   }
