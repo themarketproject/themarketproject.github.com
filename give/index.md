@@ -11,7 +11,7 @@ body_id: give
 
 <p>And to have such an impact, we need your help. We are seeking financial partners like you - those willing to provide one-time or ongoing support to help us accomplish this important work. Please join us.</p>
 
-<p>Write your check, payable to CVI* with "The Market Project" in the memo and mail to:</p>
+<p>Send your check, payable to "The Market Project" to:</p>
 
 <div class="row"><div class="large-10 large-offset-1 columns">
 <p><strong>
@@ -21,8 +21,6 @@ Washington, DC 20003
 </div></div>
 
 <p>In addition to financial partners, The Market Project will have an ongoing need for entrepreneurs, product designers and other business assistance. If you are interested in volunteering your time to consult on current and future projects, <a href="mailto:info@marketproject.org">email us</a> today and we will contact you as projects evolve.</p>
-
-<p class="footer"><small><em>*As The Market Project awaits IRS confirmation, our partner <a href="http://childvoiceintl.org">ChildVoice</a> International (CVI) will be receiving donations and providing tax-deductible receipts.</em></small></p>
 
 </div>
 </div>
