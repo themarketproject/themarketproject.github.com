@@ -65,9 +65,41 @@ $default-float: left;
 
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family:'Lato', sans-serif;;
 // $body-font-weight: normal;
 // $body-font-style: normal;
+
+//
+// Typography Variables
+//
+
+// Control header font styles
+
+$header-font-family: 'Lato', serif;
+// $header-font-weight: bold;
+// $header-font-style: normal;
+// $header-font-color: #222;
+// $header-line-height: 1.4;
+// $header-top-margin: .2em;
+// $header-bottom-margin: .5em;
+// $header-text-rendering: optimizeLegibility;
+
+// Control header font sizes
+
+// $h1-font-size: em-calc(44);
+// $h2-font-size: em-calc(37);
+// $h3-font-size: em-calc(27);
+// $h4-font-size: em-calc(23);
+// $h5-font-size: em-calc(18);
+// $h6-font-size: 1em;
+
+// Control how subheaders are styled.
+
+// $subheader-line-height: 1.4;
+// $subheader-font-color: lighten($header-font-color, 30%);
+// $subheader-font-weight: 300;
+// $subheader-top-margin: .2em;
+// $subheader-bottom-margin: .5em;
 
 // Font-smoothing
 
@@ -166,37 +198,6 @@ $default-float: left;
 
 // $block-grid-media-queries: true;
 
-//
-// Typography Variables
-//
-
-// Control header font styles
-
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
-// $header-font-style: normal;
-// $header-font-color: #222;
-// $header-line-height: 1.4;
-// $header-top-margin: .2em;
-// $header-bottom-margin: .5em;
-// $header-text-rendering: optimizeLegibility;
-
-// Control header font sizes
-
-// $h1-font-size: em-calc(44);
-// $h2-font-size: em-calc(37);
-// $h3-font-size: em-calc(27);
-// $h4-font-size: em-calc(23);
-// $h5-font-size: em-calc(18);
-// $h6-font-size: 1em;
-
-// Control how subheaders are styled.
-
-// $subheader-line-height: 1.4;
-// $subheader-font-color: lighten($header-font-color, 30%);
-// $subheader-font-weight: 300;
-// $subheader-top-margin: .2em;
-// $subheader-bottom-margin: .5em;
 
 // A general <small> styling
 

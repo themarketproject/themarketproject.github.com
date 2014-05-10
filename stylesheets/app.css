@@ -458,7 +458,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1628,7 +1628,7 @@ p aside {
 /* Default header styles */
 /* line 182, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Lato", serif;
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -3912,13 +3912,6 @@ button.large, .button.large {
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
-}
-
-/* line 61, ../_scss/app.scss */
-h1, h2, h3, p,
-.email a, .contact .columns .columns {
-  font-family: 'Lora', serif;
-  line-height: 1.1em;
 }
 
 /* line 64, ../_scss/app.scss */

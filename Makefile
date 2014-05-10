@@ -1,31 +1,32 @@
-#
-# Clean/Compile Life-cycle
-#
+deploy: compress-css commit deploy-production
 
-all: clean compile
+run:
+	bundle exec jekyll serve --watch --drafts --trace
 
-
-clean:
-	rm -rf _site
-
-
-compile:
-	bundle exec jekyll build
-	bundle exec compass compile -c config.rb
-
-
-runserver: clean compile
-	bundle exec foreman start
-
-
-.PHONY: all clean compile runserver
-
-#
-# Developer Setup
-#
-
-setup:
-	sudo apt-get -y install python-pygments
+install:
 	bundle install
 
-.PHONY: setup
+update:
+	bundle update
+
+compress-images:
+	imagemin ...
+
+compress-js:
+	uglify ...
+
+compress-css:
+	compass compile -c config.rb --force
+	autoprefixer stylesheets/app.css
+	cleancss --s1 -o stylesheets/app.min.css stylesheets/app.css
+	mv stylesheets/app.min.css stylesheets/app.css
+
+commit:
+	git add *
+	git commit -m'Production asset optimization'
+
+deploy-production:
+	git push origin
+
+.PHONY: run install update deploy deploy-production compress-css compress-js compress-images commit-css
+
